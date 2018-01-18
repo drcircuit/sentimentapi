@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div( ng-repeat="sentiment in sentiments")
+    div(class="sentiment" ng-class="sentiment.style")
+      i {{sentiment.text}}
+  script(src="/javascripts/sentimentapp.js")

@@ -1,0 +1,35 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.sentiment{
+  display: block;
+  width: 250px;
+  padding:20px;
+  float:left;
+  margin: 10px;
+}
+.positive{
+  border:1px solid #292;
+  background: #9f9;
+  color: #010;
+}
+.negative{
+  border:1px solid #922;
+  background: #f99;
+  color: #100;
+}
+.neutral{
+  border:1px solid #229;
+  background: #acf;
+  color: #001;
+}
+.mixed{
+  border:1px solid #992;
+  background: #ffa;
+  color: #110;
+}
